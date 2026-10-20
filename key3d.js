@@ -1,4 +1,4 @@
-// Hero 3D scene: a brass house key and a car-key fob on a steel key ring,
+// Hero 3D scene: a nickel house key and a car-key fob on a steel key ring,
 // lit like a studio product shot. Built entirely in three.js (no downloads).
 // It sways gently, follows the pointer, pauses off screen,
 // and holds still for people who turn off motion.
@@ -13,7 +13,7 @@ if (box) {
 /* ---------- Studio lighting: soft boxes rendered into an environment map ---------- */
 function studioEnvironment(renderer) {
   const env = new THREE.Scene();
-  env.background = new THREE.Color(0x1a2642);
+  env.background = new THREE.Color(0x3a3f4a);
   const panel = (w, h, color, intensity, pos) => {
     const m = new THREE.Mesh(
       new THREE.PlaneGeometry(w, h),
@@ -27,7 +27,7 @@ function studioEnvironment(renderer) {
   panel(9, 5, 0xffffff, 0.7, [2, 0, 9]);    // soft front fill, so faces catch light
   panel(2, 10, 0xdfe8ff, 4.0, [7, 1, 1]);  // cool strip rim light, right
   panel(8, 1.2, 0xffffff, 1.4, [0, -4, 5]);  // low fill
-  panel(3, 3, 0x6f86ff, 1.2, [-6, 0, -4]);   // brand-blue kicker from behind
+  panel(3, 3, 0xffc20e, 1.4, [-6, 0, -4]);   // warm yellow bounce from the background
   const pmrem = new THREE.PMREMGenerator(renderer);
   const tex = pmrem.fromScene(env, 0.02).texture;
   pmrem.dispose();
@@ -108,14 +108,14 @@ function makeKey() {
   stamp.offset.set(0.5, 0.5);
 
   const brassFace = new THREE.MeshPhysicalMaterial({
-    color: 0xc9a35e, metalness: 1, roughness: 0.3,
+    color: 0xd5dae0, metalness: 1, roughness: 0.24,
     anisotropy: 0.55, bumpMap: stamp, bumpScale: 1.2
   });
-  const brassEdge = new THREE.MeshPhysicalMaterial({ color: 0xd2a95c, metalness: 1, roughness: 0.2 });
+  const brassEdge = new THREE.MeshPhysicalMaterial({ color: 0xdfe3e8, metalness: 1, roughness: 0.16 });
   const key = new THREE.Mesh(geo, [brassFace, brassEdge]);
 
   // milled keyway ridges along both faces of the blade
-  const ridgeMat = new THREE.MeshPhysicalMaterial({ color: 0xc89f52, metalness: 1, roughness: 0.32, anisotropy: 0.6 });
+  const ridgeMat = new THREE.MeshPhysicalMaterial({ color: 0xc3c9d0, metalness: 1, roughness: 0.3, anisotropy: 0.6 });
   for (const zSign of [1, -1]) {
     for (const [y, w] of [[0.24, 0.1], [-0.08, 0.07]]) {
       const r = new THREE.Mesh(new RoundedBoxGeometry(4.3, w, 0.05, 3, 0.02), ridgeMat);
