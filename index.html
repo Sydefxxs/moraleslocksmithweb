@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Morales Locksmith | Mobile Locksmith in Brownsville and the RGV</title>
   <meta name="description" content="Mobile locksmith in Brownsville, South Padre Island and the Rio Grande Valley. Car keys, key fobs, transponder keys, lockouts and rekeying, done where you are. Se habla español. Call (956) 455-9249." />
-  <meta name="theme-color" content="#F5A922" />
+  <meta name="theme-color" content="#12133A" />
   <link rel="canonical" href="https://sydefxxs.github.io/moraleslocksmithweb/" />
 
   <meta property="og:type" content="website" />
@@ -18,11 +18,11 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale:alternate" content="es_US" />
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F5A922'/%3E%3Ctext x='32' y='50' font-family='Impact,Arial Narrow,sans-serif' font-size='46' text-anchor='middle' fill='%232D2E9F'%3EM%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23F5A922'/%3E%3Ctext x='32' y='47' font-family='Arial Narrow,Arial,sans-serif' font-weight='700' font-size='40' text-anchor='middle' fill='%2312133A'%3EM%3C/text%3E%3C/svg%3E" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 
   <script type="application/ld+json">
@@ -53,203 +53,322 @@
 <body>
   <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 
+  <!-- icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9h8M8 12h5"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M3 16v-4l2-5h14l2 5v4H3Z"/><path d="M3 12h18"/><circle cx="7" cy="16" r="2"/><circle cx="17" cy="16" r="2"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+    <symbol id="i-shop" viewBox="0 0 24 24"><path d="M4 9h16v11H4z"/><path d="M3 9l2-5h14l2 5"/><path d="M9 20v-6h6v6"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3M21 12v2"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 14v2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-van" viewBox="0 0 24 24"><path d="M2 7h12v9H2zM14 10h4l3 3v3h-7z"/><circle cx="6" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  </svg>
+
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="#main" aria-label="Morales Locksmith, home">
+        <span class="brand-mark" aria-hidden="true"><svg><use href="#i-key"/></svg></span>
+        <span class="brand-name">Morales <b>Locksmith</b></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#gallery" data-i18n="nav.gallery">Our work</a>
+        <a href="#hours" data-i18n="nav.hours">Hours</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      </nav>
+      <div class="top-actions">
+        <button class="lang" type="button" id="langToggle" lang="es">Español</button>
+        <a class="btn btn-gold btn-sm" href="tel:+19564559249"><svg><use href="#i-phone"/></svg><span>(956) 455-9249</span></a>
+      </div>
+    </div>
+  </header>
+
   <main id="main">
-    <!-- HERO: the name, as big as the lettering on the van -->
-    <section class="hero" id="top" aria-labelledby="name">
-      <header class="hero-bar">
-        <a class="wordmark" href="#top">Morales Locksmith</a>
-        <nav class="hero-nav" aria-label="Main">
-          <a href="#services" data-i18n="nav.services">Services</a>
-          <a href="#keys" data-i18n="nav.keys">Keys</a>
-          <a href="#call" data-i18n="nav.hours">Hours</a>
-          <button class="lang" type="button" id="langToggle" lang="es">Español</button>
-        </nav>
-      </header>
-
-      <div class="hero-copy">
-        <p class="hero-sub" data-i18n="hero.sub">Mobile locksmith in Brownsville and the Rio Grande Valley. Car keys, fobs, lockouts and rekeying, done where you are.</p>
-        <a class="action" href="tel:+19564559249"><span data-i18n="hero.call">Call</span> (956) 455-9249</a>
-        <p class="status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><span class="status-text" data-status>Mon to Fri, 10 AM to 1:30 PM and 6 to 9:30 PM</span></p>
-      </div>
-
-      <h1 id="name" class="monument"><span class="monument-word" aria-hidden="true">Morales</span><span class="sr">Morales Locksmith, Brownsville, Texas</span></h1>
-    </section>
-
-    <!-- WHAT WE DO: one size of type, three columns -->
-    <section class="services" id="services" aria-labelledby="servicesTitle">
-      <h2 id="servicesTitle" data-i18n="svc.title">What we do</h2>
-      <div class="svc-grid">
-        <div class="svc-col">
-          <h3 data-i18n="svc.car">Cars and trucks</h3>
-          <ul>
-            <li data-desc="svc.d1"><span data-i18n="svc.c1">Car lockouts</span></li>
-            <li data-desc="svc.d2"><span data-i18n="svc.c2">Keys made from scratch</span></li>
-            <li data-desc="svc.d3"><span data-i18n="svc.c3">Car key copies</span></li>
-            <li data-desc="svc.d4"><span data-i18n="svc.c4">Remote controls</span></li>
-            <li data-desc="svc.d5"><span data-i18n="svc.c5">Key fob programming</span></li>
-            <li data-desc="svc.d6"><span data-i18n="svc.c6">Push-to-start smart keys</span></li>
-            <li data-desc="svc.d7"><span data-i18n="svc.c7">Transponder chip keys</span></li>
-            <li data-desc="svc.d8"><span data-i18n="svc.c8">Truck and Freightliner keys</span></li>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-in">
+        <div class="hero-copy">
+          <p class="kicker"><svg><use href="#i-pin"/></svg><span data-i18n="hero.kicker">Mobile locksmith · Brownsville, TX</span></p>
+          <h1 data-i18n-html="hero.h1">Locked out? Lost your key? <em>We come to you.</em></h1>
+          <p class="hero-sub" data-i18n="hero.sub">Car keys, key fobs, lockouts and rekeying across Brownsville, South Padre Island and the Rio Grande Valley. Keys are cut and programmed right at your car.</p>
+          <div class="hero-btns">
+            <a class="btn btn-gold btn-lg" href="tel:+19564559249"><svg><use href="#i-phone"/></svg><span data-i18n="cta.call">Call now</span></a>
+            <a class="btn btn-ghost btn-lg" href="sms:+19564559249"><svg><use href="#i-text"/></svg><span data-i18n="cta.text">Text a photo of your key</span></a>
+          </div>
+          <p class="status" aria-live="polite"><span class="dot" aria-hidden="true"></span><span data-status>Mon to Fri, 10 AM to 1:30 PM and 6 to 9:30 PM</span></p>
+          <ul class="hero-facts">
+            <li><svg><use href="#i-van"/></svg><span data-i18n="hero.f1">We drive to you</span></li>
+            <li><svg><use href="#i-key"/></svg><span data-i18n="hero.f2">Keys made on the spot</span></li>
+            <li><svg><use href="#i-chat"/></svg><span data-i18n="hero.f3">Se habla español</span></li>
           </ul>
-          <p class="svc-sum" data-i18n="svc.carsum">Most makes, including Honda, Ford, Chevrolet, Toyota, Chrysler, Jeep and Nissan.</p>
         </div>
-        <div class="svc-col">
-          <h3 data-i18n="svc.home">Homes</h3>
-          <ul>
-            <li data-desc="svc.d9"><span data-i18n="svc.h1">House lockouts</span></li>
-            <li data-desc="svc.d10"><span data-i18n="svc.h2">Lock rekeying</span></li>
-            <li data-desc="svc.d11"><span data-i18n="svc.h3">Locks fixed</span></li>
-            <li data-desc="svc.d12"><span data-i18n="svc.h4">Keyless entry locks</span></li>
-            <li data-desc="svc.d13"><span data-i18n="svc.h5">House key copies</span></li>
-          </ul>
-          <p class="svc-sum" data-i18n="svc.homesum">Locked out, moved in, or a lock that sticks.</p>
+        <div class="hero-photos">
+          <figure class="hp hp-a"><img src="p-fobs.jpg" width="1080" height="1350" data-i18n-alt="alt.fobs" alt="Three black Dodge and Chrysler key fobs with red panic buttons." /></figure>
+          <figure class="hp hp-b"><img src="p-ford-key.jpg" width="1080" height="1350" data-i18n-alt="alt.ford" alt="A Ford remote head key with lock, unlock, panic and remote start buttons." /></figure>
+          <figure class="hp hp-c"><img src="p-truck-keys.jpg" width="1200" height="900" data-i18n-alt="alt.truck" alt="Freightliner and Kenworth truck keys fanned out on a table." /></figure>
+          <div class="hp-tag"><strong data-i18n="hero.tag1">Lost every key?</strong><span data-i18n="hero.tag2">We make a new one at the car. No tow to the dealer.</span></div>
         </div>
-        <div class="svc-col">
-          <h3 data-i18n="svc.biz">Businesses</h3>
-          <ul>
-            <li data-desc="svc.d14"><span data-i18n="svc.b1">Commercial lockouts</span></li>
-            <li data-desc="svc.d15"><span data-i18n="svc.b2">Rekeying after staff changes</span></li>
-            <li data-desc="svc.d16"><span data-i18n="svc.b3">Locks fixed and replaced</span></li>
-            <li data-desc="svc.d17"><span data-i18n="svc.b4">Keyless entry locks</span></li>
-          </ul>
-          <p class="svc-sum" data-i18n="svc.bizsum">Shops and offices across the Valley.</p>
-        </div>
-        <p class="svc-detail" aria-live="polite" data-detail></p>
       </div>
     </section>
 
-    <!-- A short run of the real work -->
-    <section class="work" aria-labelledby="workTitle">
-      <h2 id="workTitle" class="sr" data-i18n="work.title">Recent keys</h2>
-      <figure class="work-a">
-        <img src="p-fobs.jpg" width="1080" height="1350" loading="lazy" data-i18n-alt="work.a.alt" alt="Three black Dodge and Chrysler key fobs with red panic buttons, laid out on a grey table." />
-        <figcaption data-i18n="work.a">Chrysler and Dodge fobs, ready to program.</figcaption>
-      </figure>
-      <figure class="work-b">
-        <img src="p-truck-keys.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="work.b.alt" alt="Transponder keys for Freightliner and Kenworth trucks, fanned out on a white table." />
-        <figcaption data-i18n="work.b">Freightliner and Kenworth truck keys.</figcaption>
-      </figure>
-    </section>
-
-    <!-- ABOUT: the portrait sits in the paragraph like a drop capital -->
-    <section class="about" id="about" aria-labelledby="aboutTitle">
-      <h2 id="aboutTitle" class="sr" data-i18n="about.title">About Felipe Morales</h2>
-      <ul class="about-facts">
-        <li data-i18n="about.f1">Brownsville, Texas</li>
-        <li data-i18n="about.f2">Se habla español</li>
-        <li><a href="tel:+19564559249">(956) 455-9249</a></li>
+    <!-- STRIP -->
+    <div class="strip" aria-label="Highlights">
+      <ul class="wrap strip-in">
+        <li data-i18n="strip.1">Car keys &amp; fobs</li>
+        <li data-i18n="strip.2">Lockouts</li>
+        <li data-i18n="strip.3">Rekeying</li>
+        <li data-i18n="strip.4">Transponder chips</li>
+        <li data-i18n="strip.5">Truck keys</li>
+        <li data-i18n="strip.6">Homes &amp; businesses</li>
       </ul>
-      <div class="about-text">
-        <p class="lead"><img class="drop" src="p-fob-square.jpg" width="600" height="600" loading="lazy" data-i18n-alt="about.alt" alt="A new Chrysler key fob, still in its bag." /><span data-i18n="about.p1">Felipe Morales is the master locksmith behind Morales Locksmith. He works out of Brownsville and across the Valley to South Padre Island, at your car, your front door or your shop.</span></p>
-        <p class="lead soft" data-i18n="about.p2">Keys are cut and remotes programmed on the spot. Ask the price before he drives out.</p>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="sec" id="services">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 data-i18n="svc.title">What we do</h2>
+          <p data-i18n="svc.sub">One call covers your car, your house or your shop. Ask the price over the phone before Felipe drives out.</p>
+        </div>
+        <div class="cards">
+          <article class="card card-photo">
+            <img src="p-nissan-key.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.nissan" alt="A Nissan remote head key." />
+            <div class="card-body">
+              <h3 data-i18n="c1.t">Car keys &amp; remotes</h3>
+              <p data-i18n="c1.d">Spare keys, remote head keys and flip keys, cut and paired to your car.</p>
+              <ul><li data-i18n="c1.l1">Key copies</li><li data-i18n="c1.l2">Remote head &amp; flip keys</li><li data-i18n="c1.l3">Transponder chip keys</li></ul>
+            </div>
+          </article>
+          <article class="card card-photo">
+            <img src="p-fob-bag.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.fobbag" alt="A new seven-button Chrysler key fob in its bag." />
+            <div class="card-body">
+              <h3 data-i18n="c2.t">Smart keys &amp; fobs</h3>
+              <p data-i18n="c2.d">New or extra fobs programmed so the push-button start works.</p>
+              <ul><li data-i18n="c2.l1">Push-to-start keys</li><li data-i18n="c2.l2">Fob programming</li><li data-i18n="c2.l3">Replacement remotes</li></ul>
+            </div>
+          </article>
+          <article class="card card-photo">
+            <img src="p-truck-keys.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.truck" alt="Freightliner and Kenworth truck keys fanned out on a table." />
+            <div class="card-body">
+              <h3 data-i18n="c3.t">Truck &amp; big rig keys</h3>
+              <p data-i18n="c3.d">Work trucks and semis, including Freightliner and Kenworth.</p>
+              <ul><li data-i18n="c3.l1">Truck key copies</li><li data-i18n="c3.l2">Chip keys</li><li data-i18n="c3.l3">Lost key replacement</li></ul>
+            </div>
+          </article>
+          <article class="card card-icon">
+            <span class="card-ico"><svg><use href="#i-car"/></svg></span>
+            <h3 data-i18n="c4.t">Car lockouts</h3>
+            <p data-i18n="c4.d">Keys locked inside or a lock that won't turn. Opened without damage.</p>
+            <a href="tel:+19564559249" class="card-link"><span data-i18n="cta.callp">Call for a price</span><svg><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="card card-icon">
+            <span class="card-ico"><svg><use href="#i-home"/></svg></span>
+            <h3 data-i18n="c5.t">Homes</h3>
+            <p data-i18n="c5.d">House lockouts, rekeying after a move, locks fixed, keyless entry locks and key copies.</p>
+            <a href="tel:+19564559249" class="card-link"><span data-i18n="cta.callp">Call for a price</span><svg><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="card card-icon">
+            <span class="card-ico"><svg><use href="#i-shop"/></svg></span>
+            <h3 data-i18n="c6.t">Businesses</h3>
+            <p data-i18n="c6.d">Commercial lockouts, rekeying after staff changes, locks repaired or replaced.</p>
+            <a href="tel:+19564559249" class="card-link"><span data-i18n="cta.callp">Call for a price</span><svg><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
       </div>
     </section>
 
-    <!-- KEYS: one giant word, then the key types -->
-    <section class="keys" id="keys" aria-labelledby="keysTitle">
-      <div class="keys-col">
-        <h2 id="keysTitle" class="giant" data-i18n="keys.title">Keys</h2>
-        <div class="bars">
-          <details open>
-            <summary><span data-i18n="k1.t">Smart keys and push-to-start fobs</span></summary>
-            <div class="bar-body">
-              <img src="p-fob-bag.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="k1.alt" alt="A new seven-button Chrysler key fob in its bag." />
-              <p data-i18n="k1.d">New or extra fobs, programmed to your car so the push-button start works.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k2.t">Remote head keys</span></summary>
-            <div class="bar-body">
-              <img src="p-nissan-key.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="k2.alt" alt="A Nissan remote head key with lock, unlock, trunk and panic buttons." />
-              <p data-i18n="k2.d">Key and remote in one piece. The blade is cut and the remote paired to the car.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k3.t">Flip keys</span></summary>
-            <div class="bar-body">
-              <p data-i18n="k3.d">Fold-out keys with a laser-cut blade and remote buttons.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k4.t">Transponder chip keys</span></summary>
-            <div class="bar-body">
-              <p data-i18n="k4.d">Keys with a chip the car must read before it starts. Cut and paired on site.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k5.t">Lost every key</span></summary>
-            <div class="bar-body">
-              <p data-i18n="k5.d">A new key made from scratch at the car, so there is no tow to the dealer.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k6.t">Truck keys</span></summary>
-            <div class="bar-body">
-              <p data-i18n="k6.d">Work trucks and big rigs, including Freightliner.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
-          <details>
-            <summary><span data-i18n="k7.t">House and office keys</span></summary>
-            <div class="bar-body">
-              <p data-i18n="k7.d">Copies of regular and high-security keys, and rekeying so old keys stop working.</p>
-              <p class="price" data-i18n="price">Call for a price</p>
-            </div>
-          </details>
+    <!-- HOW IT WORKS -->
+    <section class="sec sec-alt">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 data-i18n="how.title">How it works</h2>
         </div>
+        <ol class="steps">
+          <li>
+            <span class="step-n">1</span>
+            <h3 data-i18n="how.1t">Call or text</h3>
+            <p data-i18n="how.1d">Tell us the year, make and model, or text a photo of your key. You get a price before anyone drives out.</p>
+          </li>
+          <li>
+            <span class="step-n">2</span>
+            <h3 data-i18n="how.2t">Felipe comes to you</h3>
+            <p data-i18n="how.2d">At your car, your front door or your shop, anywhere from Brownsville to South Padre Island.</p>
+          </li>
+          <li>
+            <span class="step-n">3</span>
+            <h3 data-i18n="how.3t">Back on the road</h3>
+            <p data-i18n="how.3d">The key is cut and programmed on the spot, or the lock is opened, rekeyed or fixed.</p>
+          </li>
+        </ol>
       </div>
-      <figure class="keys-photo">
-        <img src="p-ford-key.jpg" width="1080" height="1350" loading="lazy" data-i18n-alt="keys.alt" alt="A Ford remote head key with lock, unlock, panic and remote start buttons." />
-      </figure>
     </section>
 
-    <!-- CALL: the phone number as the display line -->
-    <section class="call" id="call" aria-labelledby="callTitle">
-      <h2 id="callTitle" class="call-note" data-i18n="call.note">Call for a price, or to book a time.</h2>
-      <a class="call-number" href="tel:+19564559249">(956) 455&#8209;9249</a>
-      <div class="call-foot">
-        <div class="hours">
-          <p class="status status-on-ink"><span class="status-dot" aria-hidden="true"></span><span class="status-text" data-status>Mon to Fri, 10 AM to 1:30 PM and 6 to 9:30 PM</span></p>
-          <p><span data-i18n="h.wd">Monday to Friday</span>: <span data-i18n="h.wdt">10 AM to 1:30 PM, 6 to 9:30 PM</span></p>
-          <p><span data-i18n="h.we">Saturday and Sunday</span>: <span data-i18n="h.wet">some days, call ahead</span></p>
+    <!-- BRANDS -->
+    <section class="brands" aria-labelledby="brandsTitle">
+      <div class="wrap">
+        <h2 id="brandsTitle" data-i18n="brands.title">Keys for most makes</h2>
+        <ul class="brand-list">
+          <li>Ford</li><li>Chevrolet</li><li>Dodge</li><li>Chrysler</li><li>Jeep</li><li>Toyota</li><li>Honda</li><li>Nissan</li><li>Freightliner</li><li>Kenworth</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="sec" id="gallery">
+      <div class="wrap">
+        <div class="sec-head sec-head-row">
+          <div>
+            <h2 data-i18n="gal.title">Recent work</h2>
+            <p data-i18n="gal.sub">Keys and fobs from the van, straight from our Facebook page.</p>
+          </div>
+          <div class="social">
+            <a class="btn btn-ghost" href="https://www.facebook.com/p/Morales-Locksmith-LLC-100066696578665/" target="_blank" rel="noopener">Facebook</a>
+            <a class="btn btn-ghost" href="https://www.instagram.com/moraleslocksmithllc/" target="_blank" rel="noopener">Instagram</a>
+          </div>
         </div>
-        <div class="call-links">
-          <a href="sms:+19564559249" data-i18n="call.text">Text us a photo of your key</a>
-          <a href="https://www.facebook.com/p/Morales-Locksmith-LLC-100066696578665/" target="_blank" rel="noopener">Facebook</a>
-          <a href="https://www.instagram.com/moraleslocksmithllc/" target="_blank" rel="noopener">Instagram</a>
+        <div class="gallery">
+          <figure class="g g1"><img src="p-fobs.jpg" width="1080" height="1350" loading="lazy" data-i18n-alt="alt.fobs" alt="Three black Dodge and Chrysler key fobs with red panic buttons." /><figcaption data-i18n="g.1">Dodge &amp; Chrysler fobs</figcaption></figure>
+          <figure class="g g2"><img src="p-truck-keys.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.truck" alt="Freightliner and Kenworth truck keys fanned out on a table." /><figcaption data-i18n="g.2">Freightliner &amp; Kenworth keys</figcaption></figure>
+          <figure class="g g3"><img src="p-fob-square.jpg" width="600" height="600" loading="lazy" data-i18n-alt="alt.fobbag" alt="A new seven-button Chrysler key fob in its bag." /><figcaption data-i18n="g.3">New 7-button fob</figcaption></figure>
+          <figure class="g g4"><img src="p-nissan-key.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.nissan" alt="A Nissan remote head key." /><figcaption data-i18n="g.4">Nissan remote key</figcaption></figure>
+          <figure class="g g5"><img src="p-ford-key.jpg" width="1080" height="1350" loading="lazy" data-i18n-alt="alt.ford" alt="A Ford remote head key with lock, unlock, panic and remote start buttons." /><figcaption data-i18n="g.5">Ford remote start key</figcaption></figure>
+          <figure class="g g6"><img src="p-fob-bag.jpg" width="1200" height="900" loading="lazy" data-i18n-alt="alt.fobbag" alt="A new seven-button Chrysler key fob in its bag." /><figcaption data-i18n="g.6">Ready to program</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="sec sec-alt about">
+      <div class="wrap about-in">
+        <div class="about-copy">
+          <h2 data-i18n="about.title">Meet Felipe Morales</h2>
+          <p data-i18n="about.p1">Felipe is the master locksmith behind Morales Locksmith. He works out of Brownsville and drives across the Valley to South Padre Island, so you never have to tow your car anywhere.</p>
+          <p data-i18n="about.p2">Every job starts with a straight price over the phone. Hablamos español.</p>
+          <a class="btn btn-gold" href="tel:+19564559249"><svg><use href="#i-phone"/></svg><span data-i18n="about.cta">Talk to Felipe</span></a>
+        </div>
+        <ul class="about-stats">
+          <li><svg><use href="#i-van"/></svg><strong data-i18n="st.1t">Mobile</strong><span data-i18n="st.1d">He comes to you</span></li>
+          <li><svg><use href="#i-key"/></svg><strong data-i18n="st.2t">On the spot</strong><span data-i18n="st.2d">Cut &amp; programmed at your car</span></li>
+          <li><svg><use href="#i-chat"/></svg><strong data-i18n="st.3t">Bilingual</strong><span data-i18n="st.3d">English y español</span></li>
+          <li><svg><use href="#i-pin"/></svg><strong data-i18n="st.4t">Local</strong><span data-i18n="st.4d">Brownsville &amp; the RGV</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HOURS + AREA -->
+    <section class="sec" id="hours">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 data-i18n="hours.title">Hours &amp; service area</h2>
+        </div>
+        <div class="ha">
+          <div class="panel">
+            <h3><svg><use href="#i-clock"/></svg><span data-i18n="hours.h">Hours</span></h3>
+            <p class="status status-lg" aria-live="polite"><span class="dot" aria-hidden="true"></span><span data-status>Mon to Fri, 10 AM to 1:30 PM and 6 to 9:30 PM</span></p>
+            <table class="hours">
+              <tbody>
+                <tr data-day="1"><th data-i18n="d.1">Monday</th><td data-i18n="h.wk">10 AM – 1:30 PM · 6 – 9:30 PM</td></tr>
+                <tr data-day="2"><th data-i18n="d.2">Tuesday</th><td data-i18n="h.wk">10 AM – 1:30 PM · 6 – 9:30 PM</td></tr>
+                <tr data-day="3"><th data-i18n="d.3">Wednesday</th><td data-i18n="h.wk">10 AM – 1:30 PM · 6 – 9:30 PM</td></tr>
+                <tr data-day="4"><th data-i18n="d.4">Thursday</th><td data-i18n="h.wk">10 AM – 1:30 PM · 6 – 9:30 PM</td></tr>
+                <tr data-day="5"><th data-i18n="d.5">Friday</th><td data-i18n="h.wk">10 AM – 1:30 PM · 6 – 9:30 PM</td></tr>
+                <tr data-day="6"><th data-i18n="d.6">Saturday</th><td data-i18n="h.we">Some days, call ahead</td></tr>
+                <tr data-day="0"><th data-i18n="d.0">Sunday</th><td data-i18n="h.we">Some days, call ahead</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="panel panel-map">
+            <h3><svg><use href="#i-pin"/></svg><span data-i18n="area.h">Where we go</span></h3>
+            <ul class="area">
+              <li>Brownsville</li><li>South Padre Island</li><li data-i18n="area.rgv">The Rio Grande Valley</li>
+            </ul>
+            <div class="map">
+              <iframe title="Map of Brownsville, Texas" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Brownsville%2C%20TX&amp;z=9&amp;output=embed"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="sec sec-alt" id="faq">
+      <div class="wrap faq-in">
+        <div class="sec-head">
+          <h2 data-i18n="faq.title">Questions</h2>
+          <p data-i18n="faq.sub">Something else? Call or text (956) 455-9249.</p>
+        </div>
+        <div class="faq">
+          <details open><summary data-i18n="q1">Do you come to me?</summary><p data-i18n="a1">Yes. Morales Locksmith is mobile. Felipe drives to your car, home or business anywhere in Brownsville, South Padre Island and the Rio Grande Valley.</p></details>
+          <details><summary data-i18n="q2">I lost all my car keys. Can you make a new one?</summary><p data-i18n="a2">Yes. A new key can be cut and programmed at the car, so you don't need to tow it to the dealer.</p></details>
+          <details><summary data-i18n="q3">How much does it cost?</summary><p data-i18n="a3">It depends on the car and the key. Call or text the year, make and model (a photo of the key helps) and you'll get a price before anyone drives out.</p></details>
+          <details><summary data-i18n="q4">Can you program a key fob or push-to-start key?</summary><p data-i18n="a4">Yes. New and extra fobs and smart keys are programmed on the spot for most makes, including Ford, Chevrolet, Dodge, Chrysler, Jeep, Toyota, Honda and Nissan.</p></details>
+          <details><summary data-i18n="q5">Are you open on weekends?</summary><p data-i18n="a5">Some Saturdays and Sundays. Call ahead to check.</p></details>
+          <details><summary data-i18n="q6">¿Hablan español?</summary><p data-i18n="a6">Sí. Felipe habla español e inglés.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2 data-i18n="cta.title">Need a key today?</h2>
+          <p data-i18n="cta.sub">Call for a price, or to book a time.</p>
+        </div>
+        <div class="cta-btns">
+          <a class="cta-number" href="tel:+19564559249"><svg><use href="#i-phone"/></svg>(956) 455&#8209;9249</a>
+          <a class="btn btn-navy" href="sms:+19564559249"><svg><use href="#i-text"/></svg><span data-i18n="cta.text">Text a photo of your key</span></a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER: the name first -->
   <footer class="foot">
-    <p class="foot-name" aria-hidden="true">Morales Locksmith</p>
-    <div class="foot-row">
-      <ul class="foot-places">
-        <li>Brownsville</li>
-        <li>South Padre Island</li>
-        <li data-i18n="foot.rgv">The Rio Grande Valley</li>
-      </ul>
-      <ul class="foot-links">
-        <li><a href="tel:+19564559249">(956) 455-9249</a></li>
-        <li><a href="mailto:moraleslocksmithllc@gmail.com">moraleslocksmithllc@gmail.com</a></li>
-        <li><a href="https://www.facebook.com/p/Morales-Locksmith-LLC-100066696578665/" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="https://www.instagram.com/moraleslocksmithllc/" target="_blank" rel="noopener">Instagram</a></li>
-      </ul>
+    <div class="wrap foot-in">
+      <div class="foot-brand">
+        <a class="brand" href="#main">
+          <span class="brand-mark" aria-hidden="true"><svg><use href="#i-key"/></svg></span>
+          <span class="brand-name">Morales <b>Locksmith</b></span>
+        </a>
+        <p data-i18n="foot.about">Mobile locksmith for cars, homes and businesses in Brownsville and the Rio Grande Valley.</p>
+      </div>
+      <div>
+        <h3 data-i18n="foot.contact">Contact</h3>
+        <ul>
+          <li><a href="tel:+19564559249">(956) 455-9249</a></li>
+          <li><a href="mailto:moraleslocksmithllc@gmail.com">moraleslocksmithllc@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="foot.follow">Follow</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/p/Morales-Locksmith-LLC-100066696578665/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/moraleslocksmithllc/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="foot.hours">Hours</h3>
+        <ul>
+          <li data-i18n="foot.h1">Mon–Fri 10–1:30 · 6–9:30 PM</li>
+          <li data-i18n="foot.h2">Sat–Sun: call ahead</li>
+        </ul>
+      </div>
     </div>
-    <div class="foot-legal">
+    <div class="wrap foot-legal">
       <p>&copy; <span id="year">2026</span> Morales Locksmith LLC</p>
-      <a href="#top" data-i18n="foot.top">Back to top</a>
+      <a href="#main" data-i18n="foot.top">Back to top</a>
     </div>
   </footer>
 
-  <a class="dock" href="tel:+19564559249"><span data-i18n="dock.call">Call</span> (956) 455-9249</a>
+  <div class="dock">
+    <a class="dock-call" href="tel:+19564559249"><svg><use href="#i-phone"/></svg><span data-i18n="dock.call">Call</span></a>
+    <a class="dock-text" href="sms:+19564559249"><svg><use href="#i-text"/></svg><span data-i18n="dock.text">Text</span></a>
+  </div>
 
   <script src="script.js"></script>
 </body>
